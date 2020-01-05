@@ -1,0 +1,133 @@
+body{
+    background: url("eva2.jpg");
+    background-repeat: repeat-y;
+    margin: 0px;
+    background-size: 100% auto;
+    display: block;
+}
+#head_01{
+    height: 36px;
+    width: 100%;
+    background-color: #00000050;
+    display: block;
+    padding-top: 6px;
+    display: block;
+    
+
+}
+#login_01{
+    color: white;
+    float: right;
+    margin-right: 18px;
+    display: block;
+    background-color: #464545;
+    padding: 5px;
+    border-radius: 6px;
+}
+#register{
+    color: white;
+    float: right;
+    margin-right: 6px;
+    display: block;
+    background-color: #464545;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+#register:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+#login-box{
+    width:270px;
+    height: 300px;
+    /* border:1px solid #000; */
+    margin: 0 auto;
+    margin-top: 12%;
+    text-align: center;
+    background: #00000080;
+    padding: 40px 50px;
+    height: auto;
+    border-radius: 10px;
+
+}
+#login-box .form{
+    margin-top: 40px;
+    
+}
+
+#login-box .form .item{
+    margin-top: 30px;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    
+
+}
+
+.title-icon{
+    color: #1f4e27;
+    font-size: 25px;
+    margin-left: 20px;
+    line-height: 28px;
+}
+.title-icon:hover{
+transform: scale(1.2);
+color: #543270;
+cursor: pointer;
+}
+
+
+
+#login-box .form .item input{
+    border: 0;
+    border-bottom: 2px solid rgb(38, 186, 231);
+    padding: 5px 10px;
+    background: #ffffff00;
+    color:rgb(74, 159, 192);
+    font-size: 17px;
+    outline: none;
+}
+
+
+#login-box h1{
+    display: inline-block;
+    color: white;
+    background-image:-webkit-linear-gradient(right,red,#fd8403,yellow); 
+    -webkit-background-clip:text; 
+    -webkit-text-fill-color:transparent; 
+    
+}
+
+
+
+#login_001:hover{
+    transform: scale(1.15);
+}
+
+
+#login-box h1:hover{
+    color: #584cc9;
+    cursor: pointer;
+    
+}
+#login-box button{
+    margin-top: 15px;
+    width: 180px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(102, 50, 50);
+    background-image: linear-gradient(to right, #db291c 0%, #578bc3 100%);
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    
+}
+#login-box button:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-image: linear-gradient(to right, #db291c 25%, #578bc3 75%);
+    box-shadow: 0 0 8px rgb(116, 116, 116);
+    
+}
